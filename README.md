@@ -15,6 +15,10 @@ I used the openweathermap.org API for this lab test
   <img src="./screenshots/FakeCity.png" width="300" />
 </p>
 
+### Notes:
+My openweathermap.org API key is in an .env file so the app will not work if cloned unless you create an .env file and put your API key formatted as "REACT_APP_WEATHER_API_KEY=[your api key]"
+This was done by me in order to keep my API key off of github.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
