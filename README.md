@@ -1,3 +1,20 @@
+# 101192241_comp3123_labtest2 Weather App in React
+
+This project is a simple weather app in react made for my lab test 2.
+It is a single page that grabs weather data and displays the information for any city chosen alongeside a picture.
+
+I used the openweathermap.org API for this lab test
+
+## App Screenshots
+
+<p align="center">
+  <img src="./screenshots/Toronto.png" width="300" /> 
+  <img src="./screenshots/Kelowna.png" width="300" />
+  <br/>
+  <img src="./screenshots/LA.png" width="300" />
+  <img src="./screenshots/FakeCity.png" width="300" />
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
