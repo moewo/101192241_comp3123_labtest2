@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(135deg, #365694, #111a2c);
+  color: #f5f5f5;
+  font-family: "Poppins", "Segoe UI", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input {
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  min-width: 240px;
+}
+
+.search-bar button {
+  padding: 0.7rem 1.3rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.weather-card {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-card .weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.temp-main {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.temp-feels {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.details {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.status {
+  margin-top: 0.5rem;
+}
+
+.status.error {
+  color: #ffb4b4;
+}
+
+.placeholder {
+  margin-top: 1.5rem;
+  opacity: 0.8;
 }
